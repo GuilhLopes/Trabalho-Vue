@@ -1,0 +1,57 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+nav{
+  background-color: #2c3e50;
+  padding: 10px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+h1{
+  text-align: center;
+}
+
+input{
+  border-radius: 1rem;
+  padding: 0.3rem;
+}
+
+button{
+  border-radius: 0.7rem;
+  padding: 0.5rem;
+  background-color: #2c3e50;
+  color: hsla(160, 100%, 37%, 1);
+  cursor: pointer;
+}
+
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;  
+}
+
+.excluir{
+  margin-left: 0.3rem;
+}
